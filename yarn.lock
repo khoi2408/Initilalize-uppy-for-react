@@ -1951,6 +1951,14 @@
     qs-stringify "^1.1.0"
     url-parse "^1.4.7"
 
+"@uppy/companion-client@^3.0.2":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@uppy/companion-client/-/companion-client-3.1.1.tgz#8c9974f70b899a40771da9a90113941356f9842e"
+  integrity sha512-S1M37vjWu8gdOgdI3Hh/1fVZ9GaLdyPQjVyUujZDTsr79b4VG7v/zjdqJ0FiOTjfGbpnj8s9kr1uyYi0Zf5VFw==
+  dependencies:
+    "@uppy/utils" "^5.1.1"
+    namespace-emitter "^2.0.1"
+
 "@uppy/core@1.20.0":
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/@uppy/core/-/core-1.20.0.tgz#019c262442e2e13b2239ce6c33f513596fdb0a2a"
@@ -1993,15 +2001,15 @@
     "@uppy/utils" "^3.6.2"
     preact "8.2.9"
 
-"@uppy/dropbox@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@uppy/dropbox/-/dropbox-1.5.2.tgz#aed0455fadfa21014e78ea70934b09af34a5afa7"
-  integrity sha512-DSuLUozHsg72qLzlZ1b1qZ9L9gdKFdtgkd2PURpOAJPRHHNchCQDdkBSPS8aHNAuErDKFxg71DcO3CIzbZ054A==
+"@uppy/dropbox@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@uppy/dropbox/-/dropbox-3.0.1.tgz#b44d29508a913b711142b7061fde63926538cba7"
+  integrity sha512-IJJW+4eiEXu+F+/+ZYnU39XX3wHHFiSmogyU2eYXAtA79Ax7tAuJj0w6ZDc3lkJAmM30YSg9U/rK1AAbzJ54Qw==
   dependencies:
-    "@uppy/companion-client" "^1.10.2"
-    "@uppy/provider-views" "^1.12.3"
-    "@uppy/utils" "^3.6.2"
-    preact "8.2.9"
+    "@uppy/companion-client" "^3.0.2"
+    "@uppy/provider-views" "^3.0.1"
+    "@uppy/utils" "^5.0.2"
+    preact "^10.5.13"
 
 "@uppy/facebook@1.2.2":
   version "1.2.2"
@@ -2090,6 +2098,15 @@
     classnames "^2.2.6"
     preact "8.2.9"
 
+"@uppy/provider-views@^3.0.1":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@uppy/provider-views/-/provider-views-3.0.2.tgz#386b3dbbce7fba21e3da776d90d9ea0737424249"
+  integrity sha512-z4v6UAiNSM2h8BB+/svBU1R/6QsssoLYKd4O8g6L7iAD1S2NPtU7U0busIyTvh3CA1Q6tfvfwF1JOFGTfNPQaA==
+  dependencies:
+    "@uppy/utils" "^5.0.2"
+    classnames "^2.2.6"
+    preact "^10.5.13"
+
 "@uppy/react@1.12.1":
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/@uppy/react/-/react-1.12.1.tgz#63161ec6b247020a7c6dbdf6f54931b79c84442d"
@@ -2167,7 +2184,7 @@
     abortcontroller-polyfill "^1.4.0"
     lodash.throttle "^4.1.1"
 
-"@uppy/utils@^5.0.2":
+"@uppy/utils@^5.0.2", "@uppy/utils@^5.1.1":
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/@uppy/utils/-/utils-5.1.2.tgz#136e4a2d3fc7222c6d19e0111fdd56bb2449be60"
   integrity sha512-a/QSxcYeK1SSOjyyohi0oSwLDMJ9SSWwDELDii1WOKiJwmtt5O6pGCKHTnvrr6RwbiedngG0dZi3koYOG+MdoA==

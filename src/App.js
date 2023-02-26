@@ -68,7 +68,7 @@ const App = () => {
 
   return (
     <div>
-      <button onClick={handleClick}>Click</button>
+      {/* <button onClick={handleClick}>Click</button> */}
       <Dashboard
         uppy={uppy}
         width="100%"

@@ -7,7 +7,7 @@
   "dependencies": {
     "@uppy/box": "0.3.12",
     "@uppy/core": "1.20.0",
-    "@uppy/dropbox": "1.5.2",
+    "@uppy/dropbox": "^3.0.1",
     "@uppy/facebook": "1.2.2",
     "@uppy/google-drive": "1.7.2",
     "@uppy/image-editor": "2.0.1",
